@@ -8,7 +8,7 @@
                 <span class="icon-bar"></span>
             </button>
             <!-- You'll want to use a responsive image option so this logo looks good on devices - I recommend using something like retina.js (do a quick Google search for it and you'll find it) -->
-            <a class="navbar-brand" href="#/">RecruitCrunch</a>
+            <a class="navbar-brand" href="#/about">RecruitCrunch</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -16,13 +16,13 @@
             <ul class="nav navbar-nav navbar-right">
                 <li ng-class="{ active: isActive('/about')}"><a href="#/about">About</a>
                 </li>
-                <li><a href="#/companies">Companies</a>
+                <li ng-class="{ active: isActive('/companies')}"><a href="#/companies">Companies</a>
                 </li>
-                <li><a href="#/recruiters">Recruiters</a>
+                <li ng-class="{ active: isActive('/recruiters')}"><a href="#/recruiters">Recruiters</a>
                 </li>
-                <li><a href="#/faq">FAQ</a>
+                <li ng-class="{ active: isActive('/faq')}"><a href="#/faq">FAQ</a>
                 </li>
-                <li><a href="#/contact">Contact</a>
+                <li ng-class="{ active: isActive('/contact')}"><a href="#/contact">Contact</a>
                 </li>
             </ul>
         </div>
