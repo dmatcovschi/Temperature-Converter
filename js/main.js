@@ -21,7 +21,9 @@ app.config(['$routeProvider', function ($routeProvider) {
     .when("/companies", {templateUrl: "partials/companies.html", controller: "PageCtrl"})
     .when("/people", {templateUrl: "partials/people.html", controller: "PageCtrl"})
     .when("/contact", {templateUrl: "partials/contact.html", controller: "PageCtrl"})
-    .when("/login", {templateUrl: "partials/login.html", controller: "PageCtrl"})
+    .when("/feedbacklogin", {templateUrl: "partials/feedbacklogin.html", controller: "PageCtrl"})
+    
+    
     // else 404
     .otherwise("/404", {templateUrl: "partials/404.html", controller: "PageCtrl"});
 }]);
