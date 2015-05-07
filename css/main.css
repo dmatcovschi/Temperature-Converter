@@ -135,3 +135,9 @@ footer {
         /* increases the carousel height so it looks good on phones */
     }
 }
+
+.imageClip{
+    width:750px;
+    height:450px;
+    overflow:hidden;
+}
