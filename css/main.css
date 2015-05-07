@@ -141,3 +141,10 @@ footer {
     height:300px;
     overflow:hidden;
 }
+
+.fieldClip{
+ width:400px;
+ height:570px;
+ overflow:hidden;
+}   
+}
