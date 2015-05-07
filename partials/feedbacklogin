@@ -1,0 +1,64 @@
+<div class="container">
+<SCRIPT LANGUAGE="JavaScript">
+function valid(form) {
+
+    var field = form.age;
+    var userAge = parseInt(field.value);
+    if (!userAge) {
+        alert("You must indicate your age.");
+        return false;
+    } else if (userAge >= 18) {
+        alert("Good, you are 18 or older");
+    } else {
+        alert("You are only " + userAge + ". Try again when you are 18.");
+        field.focus();
+        field.select();
+        return false;
+    }
+}
+</script>
+<div class="container">
+<form onSubmit = "return valid(this)" method = "post" action = "FeedbackSaveAndDisplay.php">
+<input type = "hidden" name = "user" value = "test"/>
+<input type = "hidden" name = "pwd" value = "test"/>
+<p>Enter your name, feedback, score</p>
+<table>
+<tr>
+<td>Name</td>
+<td>
+<input type = "text" name = "name" maxlength = "20"/>
+</td>
+</tr>
+<tr>
+<td>Feedback</td>
+<td>
+<input type = "text" name = "feedback" maxlength = "50"/>
+</td>
+</tr>
+<tr>
+<td>Score</td>
+<td>
+<input type = "text" name = "score" maxlength = "4"/>
+</td>
+</tr>
+<tr>
+<td>Recruiter</td>
+<td>
+<input type = "text" name = "recruiter" maxlength = "20"/>
+</td>
+</tr>
+<tr>
+<td>Your Age:</td>
+<td>
+<input type = "text" name = "age" maxlength = "2"/>
+</td>
+</tr>
+<tr>
+<td colspan = "2">
+<input type = "submit"
+value = "Submit" />
+</td>
+</tr>
+</table>
+</form>
+</div>
