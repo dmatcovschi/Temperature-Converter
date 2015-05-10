@@ -52,7 +52,7 @@ function HeaderController($scope, $location)
     };
 }
 
-app.controller('searchCompany',function($scope){
+app.controller("searchCompany",function($scope){
 	$scope.query = {};
 	$scope.queryBy = '$';
 	$scope.title = "Tunechi";
