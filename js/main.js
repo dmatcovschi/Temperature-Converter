@@ -52,7 +52,7 @@ function HeaderController($scope, $location)
     };
 }
 
-app.controller("searchCompany",function($scope){
+app.controller("searchCompany",['$scope, function($scope){
 	$scope.query = {};
 	$scope.queryBy = '$';
 	$scope.pageTitle = "Tunechi";
@@ -76,4 +76,4 @@ app.controller("searchCompany",function($scope){
 			"googleplus" : "https://plus.google.com/+Deloitte/posts"
 		}
 	];
-});
+}]);
