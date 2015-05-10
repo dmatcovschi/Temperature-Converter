@@ -3,12 +3,14 @@
     <!-- Companies Profiles -->
 
     <div class="row">
-        <input type="text" ng-model="query" placeholder="Search Company or Recruiter..."/>
-        <div class="col-lg-8">
+        
+        <div class="col-lg-4">
             <h2 class="page-header">Companies</h2>
         </div>
-
-            <div ng-repeat="company in companies | filter: query" class="col-sm-4 fieldClip" width="400" height="570">
+        <div class="col-lg-8">
+            <input type="text" ng-model="query" placeholder="Search Company or Recruiter..."/>
+        </div>
+        <div ng-repeat="company in companies | filter: query" class="col-sm-4 fieldClip" width="400" height="570">
             <img class="img-responsive imageClip" ng-src=" {{ company.link }}" max-width="750" max-height="300">
                 
             <h3> {{ company.name }}</h3>
