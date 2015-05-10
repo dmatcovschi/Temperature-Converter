@@ -10,8 +10,8 @@
             <input ng-model="query[queryBy]"/>
         </div>
 
-                <div ng-repeat="company in companies | filter: query" class="col-sm-4 fieldClip" width="400" height="570">
-               <img class="img-responsive imageClip" ng-src=" {{ company.link }}" max-width="750" max-height="300">
+            <div ng-repeat="company in companies | filter: query" class="col-sm-4 fieldClip" width="400" height="570">
+            <img class="img-responsive imageClip" ng-src=" {{ company.link }}" max-width="750" max-height="300">
                 
             <h3> {{ company.name }}</h3>
             <p> {{ company.description }} </p>
