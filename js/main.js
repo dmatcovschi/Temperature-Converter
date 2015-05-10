@@ -55,7 +55,7 @@ function HeaderController($scope, $location)
 app.controller("searchCompany",function($scope){
 	$scope.query = {};
 	$scope.queryBy = '$';
-	$scope.title = "Tunechi";
+	$scope.pageTitle = "Tunechi";
 	$scope.companies = [
 		{
 			"name" : "Google",
