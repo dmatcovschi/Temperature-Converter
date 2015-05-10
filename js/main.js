@@ -3,9 +3,7 @@
 /**
  * Main AngularJS Web Application
  */
-var app = angular.module('tutorialWebApp', [
-  'ngRoute'
-]);
+var app = angular.module('tutorialWebApp', []);
 
 /**
  * Configure the Routes
