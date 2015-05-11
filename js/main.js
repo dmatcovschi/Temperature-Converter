@@ -16,7 +16,7 @@ app.config(['$routeProvider', function ($routeProvider) {
     // Pages
     .when("/faq", {templateUrl: "partials/faq.html", controller: "PageCtrl"})
     .when("/recruiters", {templateUrl: "partials/recruiters.html", controller: "PageCtrl", controller: "searchCompany"})
-    .when("/companies", {templateUrl: "partials/companies.html", controller: "PageCtrl", controller: "searchCompany"})
+    .when("/companies", {templateUrl: "partials/recruiters.html", controller: "PageCtrl", controller: "searchCompany"})
     .when("/people", {templateUrl: "partials/people.html", controller: "PageCtrl"})
     .when("/contact", {templateUrl: "partials/contact.html", controller: "PageCtrl"})
     .when("/feedbacklogin", {templateUrl: "partials/feedbacklogin.html", controller: "PageCtrl"})
