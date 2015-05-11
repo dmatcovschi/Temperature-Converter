@@ -36,5 +36,24 @@
                 </li>
             </ul>
         </div>
+        <div class="col-md-12">
+            <h2 class="page-header">Recruiters</h2>
+        </div>
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Company</th>
+              <th>Name</th>
+              <th>Email</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr ng-repeat="recruiter in recruiters">
+              <td>{{ recruiter.company }}</td>
+              <td>{{ recruiter.name }}</td>
+              <td>{{ recruiter.email }}</td>
+            </tr>
+          </tbody>
+        </table>
     </div>
 </div>
