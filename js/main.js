@@ -50,12 +50,6 @@ function HeaderController($scope, $location)
     };
 };
 
-$("#recruiters").click(function){
-	$('html, body').animate({scrollTop:$(document).height()}, 'slow');
-        return false;
-};
-
-
 app.controller("searchCompany", function($scope){
 	$scope.query = {};
 	$scope.queryBy = '$';
