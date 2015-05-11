@@ -109,31 +109,31 @@ app.controller("searchCompany", function($scope){
 			"googleplus" : "https://plus.google.com/+Oracle/posts"
 		},
 		{
-			"name" : "Salesforce",
-			"description" : "Salesforce.com is a global cloud computing company headquartered in San Francisco, California. Though best known for its customer relationship management (CRM) product, Salesforce has also expanded into commercial applications of social networking through acquisition.",
+			"name" : "Oracle",
+			"description" : "At Oracle, we want to help you shift that spending balance. We help you simplify your IT environment so that you can free up money, time, and resources to invest in innovation. We do this by providing hardware and software that’s engineered to work together, in the cloud or on premises.",
 			"link" : "http://news.doddleme.com/wp-content/uploads/2012/09/oracle-building.jpg",
-			"facebook" : "https://www.facebook.com/salesforce",
-			"linkedin" : "https://www.linkedin.com/company/salesforce",
-			"twitter" : "https://twitter.com/salesforce",
-			"googleplus" : "https://plus.google.com/+Salesforce/posts"
+			"facebook" : "https://www.facebook.com/Oracle",
+			"linkedin" : "https://www.linkedin.com/company/oracle",
+			"twitter" : "https://twitter.com/oracle",
+			"googleplus" : "https://plus.google.com/+Oracle/posts"
 		},
 		{
-			"name" : "Optimizely",
-			"description" : "Optimizely is a firm that makes customer experience optimization software for companies. The Optimizely platform technology provides businesses the ability to conduct A/B testing, multipage, and multivariate testing that may be used for making data-driven decisions. Their offering includes a testing product for websites (both desktop and mobile), as well as a testing solution for iOS apps.",
+			"name" : "Oracle",
+			"description" : "At Oracle, we want to help you shift that spending balance. We help you simplify your IT environment so that you can free up money, time, and resources to invest in innovation. We do this by providing hardware and software that’s engineered to work together, in the cloud or on premises.",
 			"link" : "http://news.doddleme.com/wp-content/uploads/2012/09/oracle-building.jpg",
-			"facebook" : "https://www.facebook.com/optimizely",
-			"linkedin" : "https://www.linkedin.com/company/optimizely",
-			"twitter" : "https://twitter.com/optimizely",
-			"googleplus" : "https://plus.google.com/+optimizely/posts"
+			"facebook" : "https://www.facebook.com/Oracle",
+			"linkedin" : "https://www.linkedin.com/company/oracle",
+			"twitter" : "https://twitter.com/oracle",
+			"googleplus" : "https://plus.google.com/+Oracle/posts"
 		},
 		{
-			"name" : "Nutanix",
-			"description" : "Nutanix is an enterprise virtualization and storage company. The Nutanix solution consists of the "Nutanix Virtual Computing Platform" which delivers enterprise compute and storage through the deployment of commodity computing servers (called nodes) which each run a standard hypervisor and the Nutanix Operating System (NOS). Each server contains Intel processors, memory, solid-state drives and traditional hard drives, and when added into a cluster aggregates storage resources into a single storage pool.",
+			"name" : "Oracle",
+			"description" : "At Oracle, we want to help you shift that spending balance. We help you simplify your IT environment so that you can free up money, time, and resources to invest in innovation. We do this by providing hardware and software that’s engineered to work together, in the cloud or on premises.",
 			"link" : "http://news.doddleme.com/wp-content/uploads/2012/09/oracle-building.jpg",
-			"facebook" : "https://www.facebook.com/Nutanix",
-			"linkedin" : "https://www.linkedin.com/company/nutanix",
-			"twitter" : "https://twitter.com/nutanix",
-			"googleplus" : "https://plus.google.com/+nutanix/posts"
+			"facebook" : "https://www.facebook.com/Oracle",
+			"linkedin" : "https://www.linkedin.com/company/oracle",
+			"twitter" : "https://twitter.com/oracle",
+			"googleplus" : "https://plus.google.com/+Oracle/posts"
 		}
 		
 	];
