@@ -107,6 +107,33 @@ app.controller("searchCompany", function($scope){
 			"linkedin" : "https://www.linkedin.com/company/oracle",
 			"twitter" : "https://twitter.com/oracle",
 			"googleplus" : "https://plus.google.com/+Oracle/posts"
+		},
+		{
+			"name" : "Salesforce",
+			"description" : "Salesforce.com is a global cloud computing company headquartered in San Francisco, California. Though best known for its customer relationship management (CRM) product, Salesforce has also expanded into commercial applications of social networking through acquisition.",
+			"link" : "https://dz2kgivhhny1y.cloudfront.net/content/uploads/2014/10/salesforce-2.jpg",
+			"facebook" : "https://www.facebook.com/salesforce",
+			"linkedin" : "https://www.linkedin.com/company/salesforce",
+			"twitter" : "https://twitter.com/salesforce",
+			"googleplus" : "https://plus.google.com/+Salesforce/posts"
+		},
+		{
+			"name" : "Optimizely",
+			"description" : "Optimizely is a firm that makes customer experience optimization software for companies. The Optimizely platform technology provides businesses the ability to conduct A/B testing, multipage, and multivariate testing that may be used for making data-driven decisions. Their offering includes a testing product for websites (both desktop and mobile), as well as a testing solution for iOS apps.",
+			"link" : "https://scontent.cdninstagram.com/hphotos-xap1/t51.2885-15/e15/11190147_1634590883425805_1433452728_n.jpg",
+			"facebook" : "https://www.facebook.com/optimizely",
+			"linkedin" : "https://www.linkedin.com/company/optimizely",
+			"twitter" : "https://twitter.com/optimizely",
+			"googleplus" : "https://plus.google.com/+optimizely/posts"
+		},
+		{
+			"name" : "Nutanix",
+			"description" : "Nutanix is an enterprise virtualization and storage company. The Nutanix solution consists of the "Nutanix Virtual Computing Platform" which delivers enterprise compute and storage through the deployment of commodity computing servers (called nodes) which each run a standard hypervisor and the Nutanix Operating System (NOS). Each server contains Intel processors, memory, solid-state drives and traditional hard drives, and when added into a cluster aggregates storage resources into a single storage pool.",
+			"link" : "https://asdisruptiveasitgets.files.wordpress.com/2014/11/nutanix1.jpg?w=1200",
+			"facebook" : "https://www.facebook.com/Nutanix",
+			"linkedin" : "https://www.linkedin.com/company/nutanix",
+			"twitter" : "https://twitter.com/nutanix",
+			"googleplus" : "https://plus.google.com/+nutanix/posts"
 		}
 		
 	];
