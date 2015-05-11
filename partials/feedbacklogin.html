@@ -21,7 +21,7 @@ function valid(form) {
 <form onSubmit = "return valid(this)" method = "post" action = "FeedbackSaveAndDisplay.php">
 <input type = "hidden" name = "user" value = "test"/>
 <input type = "hidden" name = "pwd" value = "test"/>
-<p>Enter your name, feedback, score</p>
+<p>Enter your name, feedback, score, age, and the company name you are leaving a feedback for:</p>
 <table>
 <tr>
 <td>Name</td>
@@ -42,9 +42,9 @@ function valid(form) {
 </td>
 </tr>
 <tr>
-<td>Recruiter</td>
+<td>Company</td>
 <td>
-<input type = "text" name = "recruiter" maxlength = "20"/>
+<input type = "text" name = "company" maxlength = "20"/>
 </td>
 </tr>
 <tr>
