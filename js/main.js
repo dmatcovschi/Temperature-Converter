@@ -209,9 +209,29 @@ app.controller("searchCompany", function($scope){
 			"email" : "liza.darnell@us.pwc.com"
 		},
 		{
-			"company" : "Adobe Systems",
-			"name" : "Kelsey James",
-			"email" : "kelsjame@adobe.com"
+			"company" : "SThree",
+			"name" : "Hannah Cutler",
+			"email" : "h.cutler@sthree.com"
+		},
+		{
+			"company" : "Axcient",
+			"name" : "Jeffrey Habura",
+			"email" : "jhabura@axcient.com"
+		},
+		{
+			"company" : "Brocade",
+			"name" : "Marie-Therese Ellise",
+			"email" : "mellis@brocade.com"
+		},
+		{
+			"company" : "Sanmina",
+			"name" : "Uyen Tran",
+			"email" : "uyen.tran@sanmina.com"
+		},
+		{
+			"company" : "Safeway",
+			"name" : "Kayleigh Vergnetti",
+			"email" : "Kayleigh.Vergnetti@safeway.com"
 		}
 	];
 });
