@@ -5,7 +5,7 @@
             <div class="form-group">
                 <label for="search" class="col-md-2 control-label">Search:</label>
                 <div class="col-md-6">
-                    <input type="text" class="form-control" id="search" placeholder="Search Companies or Recruiters..." ng-model="query">
+                    <input type="text" class="form-control" id="search" placeholder="Search Companies or Recruiters..." ng-model="query" onfocus="if(this.value=='A new value') this.value='';">
                 </div>
             </div>
         </form>
