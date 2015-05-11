@@ -53,7 +53,6 @@ function HeaderController($scope, $location)
 app.controller("searchCompany", function($scope){
 	$scope.query = {};
 	$scope.queryBy = '$';
-	$scope.pageTitle = "Tunechi";
 	$scope.companies = [
 		{
 			"name" : "KPMG",
