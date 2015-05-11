@@ -11,14 +11,6 @@
 
         
     <div class="row">
-        <form class="form-horizontal">
-            <div class="form-group">
-                <div class="col-lg-4"><h1>Search:</h1></div>
-                <div class="col-lg-8">
-                    <input type="text" ng-model="query" placeholder="Search Company or Recruiter..."/>
-                </div>
-            </div>
-        </form>
         <div ng-repeat="company in companies | filter: query" class="col-sm-4 fieldClip" width="400" height="570">
             <img class="img-responsive imageClip" ng-src=" {{ company.link }}" max-width="750" max-height="300">
                 
