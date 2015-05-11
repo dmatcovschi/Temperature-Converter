@@ -48,7 +48,7 @@
             </tr>
           </thead>
           <tbody>
-            <tr ng-repeat="recruiter in recruiters">
+            <tr ng-repeat="recruiter in recruiters | filter: query">
               <td>{{ recruiter.company }}</td>
               <td>{{ recruiter.name }}</td>
               <td>{{ recruiter.email }}</td>
