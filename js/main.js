@@ -127,13 +127,13 @@ app.controller("searchCompany", function($scope){
 			"googleplus" : "https://plus.google.com/+optimizely/posts"
 		},
 		{
-			"name" : "Oracle",
-			"description" : "At Oracle, we want to help you shift that spending balance. We help you simplify your IT environment so that you can free up money, time, and resources to invest in innovation. We do this by providing hardware and software that’s engineered to work together, in the cloud or on premises.",
-			"link" : "http://news.doddleme.com/wp-content/uploads/2012/09/oracle-building.jpg",
-			"facebook" : "https://www.facebook.com/Oracle",
-			"linkedin" : "https://www.linkedin.com/company/oracle",
-			"twitter" : "https://twitter.com/oracle",
-			"googleplus" : "https://plus.google.com/+Oracle/posts"
+			"name" : "Nutanix",
+			"description" : "Nutanix is an enterprise virtualization and storage company. The Nutanix solution consists of the "Nutanix Virtual Computing Platform" which delivers enterprise compute and storage through the deployment of commodity computing servers (called nodes) which each run a standard hypervisor and the Nutanix Operating System (NOS).",
+			"link" : "https://asdisruptiveasitgets.files.wordpress.com/2014/11/nutanix1.jpg",
+			"facebook" : "https://www.facebook.com/Nutanix",
+			"linkedin" : "https://www.linkedin.com/company/nutanix",
+			"twitter" : "https://twitter.com/nutanix",
+			"googleplus" : "https://plus.google.com/+nutanix/posts"
 		}
 		
 	];
