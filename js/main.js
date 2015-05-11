@@ -56,13 +56,13 @@ app.controller("searchCompany", function($scope){
 	$scope.pageTitle = "Tunechi";
 	$scope.companies = [
 		{
-			"name" : "Google",
-			"description" : "Since the beginning, we’ve focused on providing the best user experience possible. Whether we’re designing a new Internet browser or a new tweak to the look of the homepage, we take great care to ensure that they will ultimately serve you, rather than our own internal goal or bottom line.",
-			"link" : "http://www.artificialbrains.com/images/google/google-building-44.jpg",
-			"facebook" : "https://www.facebook.com/Google",
-			"linkedin" : "https://www.linkedin.com/company/google",
-			"twitter" : "https://twitter.com/google",
-			"googleplus" : "https://plus.google.com/+google/posts"
+			"name" : "KPMG",
+			"description" : "KPMG is one of the largest professional services companies in the world and one of the Big Four auditors, along with Deloitte, EY and PwC. Its global headquarters are located in Amsterdam, the Netherlands. KPMG employs 162,000 people and has three lines of services: audit, tax, and advisory. Its tax and advisory services are further divided into various service groups.",
+			"link" : "http://www.nrc.nl/wp-content/uploads/2013/11/kpmg-logo.jpg",
+			"facebook" : "https://www.facebook.com/KPMG",
+			"linkedin" : "https://www.linkedin.com/company/kpmg",
+			"twitter" : "https://twitter.com/kpmg",
+			"googleplus" : "https://plus.google.com/106458718593123764181/posts"
 		},
 		{
 			"name" : "Deloitte",
