@@ -128,12 +128,12 @@ app.controller("searchCompany", function($scope){
 		},
 		{
 			"name" : "Nutanix",
-			"description" : "Nutanix is an enterprise virtualization and storage company. The Nutanix solution consists of the "Nutanix Virtual Computing Platform" which delivers enterprise compute and storage through the deployment of commodity computing servers (called nodes) which each run a standard hypervisor and the Nutanix Operating System (NOS).",
-			"link" : "https://asdisruptiveasitgets.files.wordpress.com/2014/11/nutanix1.jpg",
-			"facebook" : "https://www.facebook.com/Nutanix",
-			"linkedin" : "https://www.linkedin.com/company/nutanix",
-			"twitter" : "https://twitter.com/nutanix",
-			"googleplus" : "https://plus.google.com/+nutanix/posts"
+			"description" : "Arista Networks is a computer networking company headquartered in Santa Clara, California, USA. The company designs and sells multilayer network switches to deliver software-defined networking (SDN) solutions for large datacenter, cloud computing, high-performance computing and high-frequency trading environments.",
+			"link" : "http://www.hpcwire.com/wp-content/uploads/2014/06/arista.png",
+			"facebook" : "https://www.facebook.com/arista",
+			"linkedin" : "https://www.linkedin.com/company/arista",
+			"twitter" : "https://twitter.com/arista",
+			"googleplus" : "https://plus.google.com/+arista/posts"
 		}
 		
 	];
