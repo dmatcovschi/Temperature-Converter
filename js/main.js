@@ -109,7 +109,7 @@ app.controller("searchCompany", function($scope){
 			"googleplus" : "https://plus.google.com/+Oracle/posts"
 		}
 	];
-	$scope.companies = [
+	$scope.recruiters = [
 		{
 			"company" : "Deloitte",
 			"name" : "Karen Waldmann",
