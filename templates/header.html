@@ -34,24 +34,23 @@
         <!-- /.navbar-collapse -->
     </div>
     <!-- /.container -->
-    
-    <div class="container">
-    <div class="row">
-        <div class='col-sm-6'>
-            <div class="form-group">
-                <div class='input-group date' id='datetimepicker1'>
-                    <input type='text' class="form-control" />
-                    <span class="input-group-addon">
-                        <span class="glyphicon glyphicon-calendar"></span>
-                    </span>
+   <div class="container">
+    <div class="col-sm-6">
+        <div class="form-group">
+            <div class="row">
+                <div class="col-md-8">
+                    <div id="datetimepicker12"></div>
                 </div>
             </div>
         </div>
-        <script type="text/javascript">
-            $(function () {
-                $('#datetimepicker1').datetimepicker();
-            });
-        </script>
     </div>
+    <script type="text/javascript">
+        $(function () {
+            $('#datetimepicker12').datetimepicker({
+                inline: true,
+                sideBySide: true
+            });
+        });
+    </script>
 </div>
 </nav>
