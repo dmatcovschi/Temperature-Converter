@@ -1,16 +1,17 @@
 <div class="container" ng-app="searchFunction">
     
-   <form class="form-horizontal">
-        <div class="form-group">
-            <label for="search" class="col-md-2 control-label">Search</label>
-            <div class="col-md-10">
-                <input type="text" class="form-control" id="search" placeholder="Search Companies or Recruiters..." ng-model="query">
-            </div>
-        </div>
-    </form>
+   
 
         
     <div class="row">
+        <form class="form-horizontal">
+            <div class="form-group">
+                <label for="search" class="col-md-2 control-label">Search</label>
+                <div class="col-md-10">
+                    <input type="text" class="form-control" id="search" placeholder="Search Companies or Recruiters..." ng-model="query">
+                </div>
+            </div>
+        </form>
         <div ng-repeat="company in companies | filter: query" class="col-sm-4 fieldClip" width="400" height="570">
             <img class="img-responsive imageClip" ng-src=" {{ company.link }}" max-width="750" max-height="300">
                 
