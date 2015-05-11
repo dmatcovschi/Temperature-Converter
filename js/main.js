@@ -109,4 +109,46 @@ app.controller("searchCompany", function($scope){
 			"googleplus" : "https://plus.google.com/+Oracle/posts"
 		}
 	];
+	$scope.companies = [
+		{
+			"company" : "Deloitte",
+			"name" : "Karen Waldmann",
+			"email" : "kwaldmann@deloitte.com"
+		},
+		{
+			"company" : "Symantec",
+			"name" : "Monica Ipong",
+			"email" : "monica_ipong@symantec.com"
+		},
+		{
+			"company" : "Symantec",
+			"name" : "David Sambrano",
+			"email" : "David_Sambrano@symantec.com"
+		},
+		{
+			"company" : "Amazon",
+			"name" : "Tiffany Casey",
+			"email" : "tiffanca@amazon.com"
+		},
+		{
+			"company" : "KPMG",
+			"name" : "McKenzie Campana",
+			"email" : "mcampana@kpmg.com"
+		},
+		{
+			"company" : "Deloitte",
+			"name" : "Monica Anne Giflewski",
+			"email" : "mfiglewski@deloitte.com"
+		},
+		{
+			"company" : "VMWare",
+			"name" : "Shawn Sigona",
+			"email" : "ssigona@vmware.com"
+		},
+		{
+			"company" : "VMWare",
+			"name" : "Audrey Pietrzak",
+			"email" : "apietrzak@vmware.com"
+		}
+	];
 });
