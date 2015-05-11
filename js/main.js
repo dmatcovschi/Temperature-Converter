@@ -174,9 +174,44 @@ app.controller("searchCompany", function($scope){
 			"email" : "ssigona@vmware.com"
 		},
 		{
-			"company" : "VMWare",
-			"name" : "Audrey Pietrzak",
-			"email" : "apietrzak@vmware.com"
+			"company" : "KLA-Tencor",
+			"name" : "Steve Mendez",
+			"email" : "Steve.Mendez@kla-tencor.com"
+		},
+		{
+			"company" : "Ooyala",
+			"name" : "Megan Hanegan",
+			"email" : "meganh@ooyala.com"
+		},
+		{
+			"company" : "Salesforce",
+			"name" : "Alexandra Fee",
+			"email" : "afee@salesforce.com"
+		},
+		{
+			"company" : "Optimizely",
+			"name" : "Monica Krist",
+			"email" : "monica@optimizely.com"
+		},
+		{
+			"company" : "Nutanix",
+			"name" : "Daisy Hurtado",
+			"email" : "dhurtado@nutanix.com"
+		},
+		{
+			"company" : "Actuate",
+			"name" : "Lisa Yakushi",
+			"email" : "lyakushi@actuate.com"
+		},
+		{
+			"company" : "PricewatehouseCoopers",
+			"name" : "Liza Darnell",
+			"email" : "liza.darnell@us.pwc.com"
+		},
+		{
+			"company" : "Adobe Systems",
+			"name" : "Kelsey James",
+			"email" : "kelsjame@adobe.com"
 		}
 	];
 });
