@@ -127,7 +127,7 @@ app.controller("searchCompany", function($scope){
 			"googleplus" : "https://plus.google.com/+optimizely/posts"
 		},
 		{
-			"name" : "Nutanix",
+			"name" : "Arista Networks",
 			"description" : "Arista Networks is a computer networking company headquartered in Santa Clara, California, USA. The company designs and sells multilayer network switches to deliver software-defined networking (SDN) solutions for large datacenter, cloud computing, high-performance computing and high-frequency trading environments.",
 			"link" : "http://www.hpcwire.com/wp-content/uploads/2014/06/arista.png",
 			"facebook" : "https://www.facebook.com/arista",
