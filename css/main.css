@@ -137,8 +137,8 @@ footer {
 }
 
 .imageClip{
-    width:750px;
-    height:300px;
+    width:375px;
+    height:150px;
     overflow:hidden;
 }
 
@@ -152,7 +152,7 @@ footer {
     position:relative;
     top:-25px;
     left:-35px;
-    width:3000px;
+    width:2000px;
     height:500px;
     z-index:999;
 }
