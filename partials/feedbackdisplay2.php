@@ -77,7 +77,7 @@
 			<th style = "width: 100px;">Name</th>
 			<th style = "width: 200px;">Feedback</th>
 			<th style = "width: 50px;">Score</th>
-			<th style = "width: 100px;">Company</th>
+			<th style = "width: 100px;">Product</th>
 			</tr>
 			</thead>
 			</div>
@@ -88,12 +88,12 @@
 			$name = $_POST['name'];
 			$feedback = $_POST['feedback'];
 			$score = $_POST['score'];
-			$company = $_POST['company'];
+			$company = $_POST['product'];
 			$user = $_POST['user'];
 			$pwd = $_POST['pwd'];
 			$clear= $_POST['clear'];
 			
-			//echo $name.":".$feedback.":".$score.":".$company.":".$user.":".$pwd;
+			//echo $name.":".$feedback.":".$score.":".$product.":".$user.":".$pwd;
 
 			//connect to the database
 			$connectionstring = odbc_connect("118w_lab", $user, $pwd);
@@ -104,12 +104,12 @@
 				$deleteResults = odbc_do($connectionstring, $Delete);
 			}
 
-			$Insert = "INSERT INTO t2_193 VALUES ('$name', '$company', '$feedback', '$score')";
+			$Insert = "INSERT INTO t2_193 VALUES ('$name', '$product', '$feedback', '$score')";
 
 			$results = odbc_do($connectionstring, $Insert);
 
 			//SQL query
-			$Query = "SELECT name, feedback, score, company FROM t2_193";
+			$Query = "SELECT name, feedback, score, product FROM t2_193";
 
 			//execute query
 			$queryexe = odbc_do($connectionstring, $Query);
@@ -129,7 +129,7 @@
 			print ("<td>$name</td>");
 			print ("<td>$feedback</td>");
 			print ("<td>$score</td>");
-			print ("<td>$company</td>");
+			print ("<td>$product</td>");
 			print ("</tr>");
 			}
 
