@@ -157,9 +157,9 @@ footer {
     -ms-transition: all .2s ease-in-out;
 }
  .zoom_img img:hover{
--moz-transform:scale(3); 
--webkit-transform:scale(3);
--o-transform:scale(3);
+-moz-transform:scale(2); 
+-webkit-transform:scale(2);
+-o-transform:scale(2);
 }
 .transition {
     -webkit-transform: scale(2); 
