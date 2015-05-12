@@ -45,7 +45,7 @@ app.controller('PageCtrl', function (/* $scope, $location, $http */) {
   $('.carousel').carousel({
     interval: 5000
   });
-  $(document).ready(function(){
+  $('#recruiters').ready(function(){
     $('.img-zoom').hover(function() {
         $(this).addClass('transition');
  
