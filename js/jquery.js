@@ -1,7 +1,7 @@
 //change window replace to correct url
 $('#recruiters').click(function(){
   window.location.replace("http://dmatcovschi.github.io/#/recruiters")
-  $('html, body').animate({scrollTop:$("recruiters").ofsset().top
+  $('html, body').animate({scrollTop:$("#recruiters").ofsset().top
   },2000);
 });
 
