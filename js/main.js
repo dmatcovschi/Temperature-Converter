@@ -237,10 +237,7 @@ app.controller("searchCompany", function($scope){
 	];
 });
 
-app.run(function($rootScope,$interval){
-    $rootScope.AssignedDate = Date; 
-    
-    $interval(function(){
-        
-    },1000)
-})
+function Ctrl($scope)
+{
+    $scope.date = new Date();
+}
