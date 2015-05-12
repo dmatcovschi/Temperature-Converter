@@ -1,16 +1,16 @@
    //Used to enlarge images
-   function showImage(imgName) {
+   $('#recruiters').click(function showImage(imgName) {
                 document.getElementById('largeImg').src = imgName;
                 showLargeImagePanel();
                 unselectAll();
-            }
-            function showLargeImagePanel() {
+            })
+            $('#recruiters').click(function showLargeImagePanel() {
                 document.getElementById('largeImgPanel').style.visibility = 'visible';
-            }
-            function unselectAll() {
+            })
+            $('#recruiters').click(function unselectAll() {
                 if(document.selection) document.selection.empty();
                 if(window.getSelection) window.getSelection().removeAllRanges();
-            }
-            function hideMe(obj) {
+            })
+            $('#recruiters').click(function hideMe(obj) {
                 obj.style.visibility = 'hidden';
-            }
+            })
