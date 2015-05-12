@@ -261,7 +261,9 @@ function RoleListCtrl($scope)
 
         alert("test :"+newRole.companyName);
 
-        $scope.roleList = $scope.roleList.push(newRole);
+        var currentList = $scope.roleList;
+	var newList = currentList.concat(newRoleArray);
+	$scope.roleList = newList;
         // I have also tried this :   $scope.roleList = $scope.roleList.concat(newRole);
     }
 
