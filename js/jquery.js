@@ -12,7 +12,7 @@ $('#recruiters1').click(function(){
 });
 
  // Activates the Carousel
-  $('.carousel').carousel({
+  $('.carousel').carousel('cycle'{
     interval: 5000
   });
 $('#recruiters').ready(function(){
