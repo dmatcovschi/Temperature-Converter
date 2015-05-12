@@ -1,3 +1,4 @@
+   //Used to enlarge images
    function showImage(imgName) {
                 document.getElementById('largeImg').src = imgName;
                 showLargeImagePanel();
