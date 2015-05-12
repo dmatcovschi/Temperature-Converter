@@ -6,9 +6,19 @@ $('#recruiters').click(function(){
 });
 
 $('#recruiters1').click(function(){
-  window.location.replace("http://dmatcovschi.github.io/#/recruiters")
+  window.location.replace("http://dmatcovschi.github.io/#/companies")
   $('html, body').animate({scrollTop:$(document).height()}, 'slow');
     return false;
+});
+
+$('#companies2').click(function(){
+  window.location.replace("http://dmatcovschi.github.io/#/companies")
+  $('html, body').animate({scrollTop:$(document).height()}, 'slow');
+});
+
+$('#companies1').click(function(){
+  window.location.replace("http://dmatcovschi.github.io/#/recruiters")
+  $('html, body').animate({scrollTop:$(document).height()}, 'slow');
 });
 
  // Activates the Carousel
