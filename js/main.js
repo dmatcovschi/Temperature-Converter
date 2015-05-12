@@ -243,36 +243,42 @@ function Ctrl($scope)
     $scope.date = new Date();
 }
 
-function RoleListCtrl($scope)
-{
-    $('#myTab a[href="#role"]').tab('show');
+app.controller("mainController",
 
-    $scope.newCompanyName ="";
-    $scope.newPosition="";
+function ($scope) {
 
+    // Item List Arrays
+    $scope.items = [];
+    $scope.checked = [];
 
-    $scope.addRole = function()
-    {
-        var newRole = new function() {
-            this.companyName = $scope.newCompanyName;
-            this.position    = $scope.newPosition;
-            this.id          = '';
-        }
+    // Add a Item to the list
+    $scope.addItem = function () {
 
-        alert("test :"+newRole.companyName);
+        $scope.items.push({
+            amount: $scope.itemAmount,
+            name: $scope.itemName
+        });
 
-        var currentList = $scope.roleList;
-	var newList = currentList.concat(newRoleArray);
-	$scope.roleList = newList;
-        // I have also tried this :   $scope.roleList = $scope.roleList.concat(newRole);
-    }
+        // Clear input fields after push
+        $scope.itemAmount = "";
+        $scope.itemName = "";
 
-    $scope.roleList = [
-        {"companyName": "Company 01", "id":"1", "position": "CEO"},
-        {"companyName": "Company 02", "id":"2", "position": "Board of Director"},
-        {"companyName": "Company 01", "id":"1", "position": "CEO"},
-        {"companyName": "Company 02", "id":"2", "position": "Board of Director"}
+    };
 
-    ];
-}
+    // Add Item to Checked List and delete from Unchecked List
+    $scope.toggleChecked = function (index) {
+        $scope.checked.push($scope.items[index]);
+        $scope.items.splice(index, 1);
+    };
+
+    // Get Total Items
+    $scope.getTotalItems = function () {
+        return $scope.items.length;
+    };
+
+    // Get Total Checked Items
+    $scope.getTotalCheckedItems = function () {
+        return $scope.checked.length;
+    };
+});
 
