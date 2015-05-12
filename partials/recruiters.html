@@ -10,7 +10,7 @@
             </div>
         </form>
         <div class="col-md-12">
-            <h2 class="page-header" id = "#companies">Companies</h2>
+            <h2 class="page-header">Companies</h2>
         </div>
         <div ng-repeat="company in companies | filter: query" class="col-sm-4 fieldClip zoom_img" width="400" height="570">
             <img class="img-responsive imageClip thumbnail" ng-src=" {{ company.link }}" style="cursor:pointer" onclick="showImage('{{ company.link }}');">
