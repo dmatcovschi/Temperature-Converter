@@ -137,14 +137,14 @@ footer {
 }
 
 .imageClip{
-    width:375px;
-    height:300px;
+    width:600px;
+    height:600px;
     overflow:hidden;
 }
 
 .fieldClip{
- width:600px;
- height:600px;
+ width:570px;
+ height:390px;
  overflow:hidden;
 }   
 .zoom_img img{
