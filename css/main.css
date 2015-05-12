@@ -161,7 +161,7 @@ footer {
     -o-transform: scale(2);
     transform: scale(2);
 }
-
+/*
 .thumbnail:hover {
     position:relative;
     top:-25px;
@@ -170,4 +170,4 @@ footer {
     height:500px;
     z-index:999;
 }
-
+*/
