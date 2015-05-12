@@ -14,3 +14,10 @@ $('#recruiters1').click(function(){
 $('#feedbackform').click(function(){
   window.location.replace("http://dmatcovschi.github.io/#/feedbackdisplay2")
 });
+
+$('.autoplay').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 5000,
+});
