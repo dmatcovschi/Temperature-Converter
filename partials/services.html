@@ -1,13 +1,34 @@
 <!-- Page Content -->
 
-<div class="container">
-    <div ng-controller="Note">
-      <div ng-repeat="item in items">
-        <input type="text" placeholder="{{item.questionPlaceholder}}" ng-model="item.question">
-        <input ng-class="{'blockInput': !item.inlineChecked}" type="text" placeholder="enter text..." ng-model="item.text">
-        <input type="checkbox" name="check" value="inline" ng-model="item.inlineChecked"> Inline
-      </div>
-      <button ng-click="add()">New Item</button>
+<div id="myModal" class="modal hide fade" ng-controller="RoleListCtrl">
+
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h3>Add Role</h3>
     </div>
+
+    <div class="modal-body">
+
+        <div class="control-group">
+            <label class="control-label pull-left" for="name">Company Name</label>
+            <div class="controls">
+                <input type="text" id="coyName" ng-model="newCompanyName" placeholder="Company Name">
+            </div>
+        </div>
+
+        <div class="control-group">
+            <label class="control-label pull-left" for="name">Role</label>
+            <div class="controls">
+                <input type="text" id="newRole" ng-model="newPosition" placeholder="Role">
+            </div>
+        </div>
+
+    </div>
+
+    <div class="modal-footer">
+        <a href="#" class="btn">Close</a>
+        <a href="#" class="btn btn-primary" ng-click="addRole()">Save changes</a>
+    </div>
+
 </div>
 <!-- /.container -->
