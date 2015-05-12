@@ -116,7 +116,9 @@
             <div class="row">
                 <div class="col-lg-12">
                     <p>Copyright &copy; Your Website 20141</p>
-                    <div ng-app="tutorialWebApp">{{AssignedDate.now() | date:'yyyy-MM-dd HH:mm:ss'}}</div>
+                    <div ng-app ng-controller="Ctrl">
+                        {{date | date:'yyyy-MM-dd'}}
+                    </div>
                 </div>
             </div>
         </footer>
