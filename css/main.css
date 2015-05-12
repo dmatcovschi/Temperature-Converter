@@ -150,8 +150,8 @@ footer {
 
 .thumbnail:hover {
     position:relative;
-    top:-100px;
-    left:-100px;
+    top:-25px;
+    left:-35px;
     width:1000px;
     height:500px;
     z-index:999;
