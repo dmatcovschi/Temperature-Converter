@@ -20,7 +20,7 @@ app.config(['$routeProvider', function ($routeProvider) {
     .when("/people", {templateUrl: "partials/people.html", controller: "PageCtrl"})
     .when("/contact", {templateUrl: "partials/contact.html", controller: "PageCtrl"})
     .when("/feedbacklogin", {templateUrl: "partials/feedbacklogin.html", controller: "PageCtrl"})
-    .when("/feedbackdisplay2", {templateUrl: "partials/feedbackdisplay2.php", controller: "PageCtrl"})
+    .when("/feedbackdisplay2", {templateUrl: "partials/feedbackdisplay.php", controller: "PageCtrl"})
     .when("/services", {templateUrl: "partials/services.html", controller: "PageCtrl"})
     
     
