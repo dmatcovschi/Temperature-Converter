@@ -45,6 +45,14 @@ app.controller('PageCtrl', function (/* $scope, $location, $http */) {
   $('.carousel').carousel({
     interval: 5000
   });
+  $(document).ready(function(){
+    $('.img-zoom').hover(function() {
+        $(this).addClass('transition');
+ 
+    }, function() {
+        $(this).removeClass('transition');
+    });
+  });
 function HeaderController($scope, $location) 
 { 
     $scope.isActive = function (viewLocation) { 
