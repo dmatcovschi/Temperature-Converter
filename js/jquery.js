@@ -15,7 +15,7 @@ $('#recruiters1').click(function(){
   $('.carousel').carousel({
     interval: 5000
   });
-$(document).ready(function(){
+$('#recruiters').ready(function(){
     $('.img-zoom').hover(function() {
         $(this).addClass('transition');
  
