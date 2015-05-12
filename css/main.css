@@ -149,9 +149,9 @@ footer {
 }   
 
 .thumbnail:hover {
-    position:absolute;
-    top:-25px;
-    left:-50px;
+    position:relative;
+    top:-100px;
+    left:-100px;
     width:1000px;
     height:500px;
     z-index:999;
