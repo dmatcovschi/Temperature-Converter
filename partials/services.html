@@ -1,45 +1,62 @@
-<div ng-controller="mainController">
-        
-        <div id="AddItem">
-             <h3>Add Item</h3>
-
-            <input value="1" type="number" placeholder="1" ng-model="itemAmount">
-            <input value="" type="text" placeholder="Name of Item" ng-model="itemName">
-            <br/>
-            <button ng-click="addItem()">Add to list</button>
-        </div>
-        <!-- begin: LIST OF CHECKED ITEMS -->
-        <div id="CheckedList">
-             <h3>Checked Items: {{getTotalCheckedItems()}}</h3>
-
-             <h4>Checked:</h4>
-
-            <table>
-                <tr ng-repeat="item in checked" class="item-checked">
-                    <td><b>amount:</b> {{item.amount}} -</td>
-                    <td><b>name:</b> {{item.name}} -</td>
-                    <td> <i>this item is checked!</i>
-
-                    </td>
-                </tr>
-            </table>
-        </div>
-        <!-- end: LIST OF CHECKED ITEMS -->
-        <!-- begin: LIST OF UNCHECKED ITEMS -->
-        <div id="UncheckedList">
-             <h3>Unchecked Items: {{getTotalItems()}}</h3>
-
-             <h4>Unchecked:</h4>
-
-            <table>
-                <tr ng-repeat="item in items" class="item-unchecked">
-                    <td><b>amount:</b> {{item.amount}} -</td>
-                    <td><b>name:</b> {{item.name}} -</td>
-                    <td>
-                        <button ng-click="toggleChecked($index)">check item</button>
-                    </td>
-                </tr>
-            </table>
-        </div>
-        <!-- end: LIST OF ITEMS -->
+<div ng-controller = "fessCntrl"> 
+ <form class="clearBoth"  ng-submit="submitExpense(expenseInfo)">
+    <div class="expenseDesc" ng-model="expenseInfo">
+        <div class="leftDesc">
+            <div class="item">
+                <label for="title">Expense Title</label>
+                <input type="text" id="exTitle" name="title" ng-model="expenseInfo.exTitle"/>
             </div>
+            <div class="item">
+                <label for="amount">Total Amount Spend</label>
+                <input type="text" id="totAmt" name="amount" ng-model="expenseInfo.amount"/>
+            </div>
+            <div class="item">
+                <label for="shareType">Type of Share</label>
+                <select name="shareType" ng-model="expenseInfo.typeOfShare">
+                    <option value="equal">Equal</option>
+                    <option value="unequal">Unequal</option>
+                </select>
+            </div>
+        </div>
+        <div class="rightDesc">
+            <div class="item">
+                <label for="date">Date</label>
+                <input type="text" id="date" name="date" ng-model="expenseInfo.date"/>
+            </div>
+        </div>
+        <!-- <div class="lowerSection">
+            <div class="expenseTable clearBoth">
+                <div class="tblHeader row">
+                    <div class="sNo">SNo.</div>
+                    <div class="email">Email</div>
+                    <div class="name">Name</div>
+                    <div class="share">Share</div>
+                    <div class="paid">Paid</div>
+                    <div class="owesTo">Owes To</div>
+                    <div class="getsFrom">Gets From</div>
+                    <div></div>
+                </div>
+                <div class="tblBody">
+                    <div class="row">
+                        <div class="sNo">1</div>
+                        <div class="email">gnehapk@gmail.com</div>
+                        <div class="name">Neha</div>
+                        <div class="share">700</div>
+                        <div class="paid">500</div>
+                        <div class="owesTo">200 to Sneha</div>
+                        <div class="getsFrom"></div>
+                        <div></div>
+                    </div>
+                </div>
+                <div class="tblFooter clearBoth">
+                    <button id="addMember">Add Member</button>
+                </div>
+            </div>
+        </div> -->
+
+    </div> <!--end of expenseDesc-->
+    <input type="submit" value="AddExpense" class="clearBoth" />
+</form>
+    <pre>{{expenses|json}}</pre>
+    
+</div>
