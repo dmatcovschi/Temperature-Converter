@@ -23,6 +23,8 @@ $('#recruiters').ready(function(){
         $(this).removeClass('transition');
     });
   });
+  
+$('#search').val("");
    
    //Used to enlarge images
    $('#recruiters').click(function showImage(imgName) {
