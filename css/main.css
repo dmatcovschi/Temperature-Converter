@@ -152,8 +152,8 @@ footer {
     position:relative;
     top:-25px;
     left:-35px;
-    width:750px;
-    height:250px;
+    width:900px;
+    height:500px;
     display:block;
-    z-index:999;
+    z-index:0;
 }
