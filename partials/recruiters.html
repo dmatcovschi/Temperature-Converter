@@ -13,7 +13,7 @@
             <h2 class="page-header">Companies</h2>
         </div>
         <div ng-repeat="company in companies | filter: query" class="col-sm-4 fieldClip" width="400" height="570">
-            <img class="img-responsive imageClip thumbnail" ng-src=" {{ company.link }}" onmouseover="company.link.width='700'; company.link.height='700'" onmouseout="company.link.width='400'; company.link.height='570'" max-width="700" max-height="350">
+            <img class="img-responsive imageClip thumbnail" ng-src=" {{ company.link }}" onclick= "{{company.link}}">
             <!--  <img class="img-responsive imageClip thumbnail" ng-src=" {{ company.link }}" max-width="700" max-height="350"> -->
               
             <h3> {{ company.name }}</h3>
