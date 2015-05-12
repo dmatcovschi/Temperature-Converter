@@ -138,7 +138,7 @@ footer {
 
 .imageClip{
     width:375px;
-    height:150px;
+    height:300px;
     overflow:hidden;
 }
 
@@ -153,6 +153,6 @@ footer {
     top:-25px;
     left:-35px;
     width:2000px;
-    height:500px;
+    height:auto;
     z-index:999;
 }
