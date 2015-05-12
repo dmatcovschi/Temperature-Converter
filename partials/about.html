@@ -116,8 +116,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <p>Copyright &copy; Your Website 20141</p>
-                    <span id="date_time"></span>
-                    <script type="text/javascript">window.onload = date_time('date_time');</script>
+                    <div>{{AssignedDate.now() | date:'yyyy-MM-dd HH:mm:ss'}}</div>
                 </div>
             </div>
         </footer>
