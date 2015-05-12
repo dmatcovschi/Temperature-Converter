@@ -241,3 +241,16 @@ function Ctrl($scope)
 {
     $scope.date = new Date();
 }
+
+var Note = function($scope){
+	$scope.items = [];
+	$scope.add = function () {
+          $scope.items.push({ 
+            inlineChecked: false,
+            question: "",
+            questionPlaceholder: "foo",
+            text: ""
+          });
+        };
+      }	
+
