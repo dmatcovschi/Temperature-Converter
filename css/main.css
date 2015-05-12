@@ -147,14 +147,20 @@ footer {
  height:570px;
  overflow:hidden;
 }   
-.img-zoom {
-    width: 310px;
+.img-zoom img{
+    margin:50px;
+    height:100px;
+    width:100px;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     -o-transition: all .2s ease-in-out;
     -ms-transition: all .2s ease-in-out;
 }
- 
+ .zoom_img img:hover{
+-moz-transform:scale(2); 
+-webkit-transform:scale(2);
+-o-transform:scale(2);
+}
 .transition {
     -webkit-transform: scale(2); 
     -moz-transform: scale(2);
