@@ -21,7 +21,7 @@ background-color: #dddddd;
 <th style = "width: 100px;">Name</th>
 <th style = "width: 200px;">Feedback</th>
 <th style = "width: 50px;">Score</th>
-<th style = "width: 100px;">Company</th>
+<th style = "width: 100px;">Product</th>
 </tr>
 </thead>
 
