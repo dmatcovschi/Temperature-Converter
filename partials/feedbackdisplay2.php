@@ -46,64 +46,6 @@
 	</style>
 	</head>
     
-<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
-	<!-- Preloader -->
-	<div id="preloader">
-	  <div id="load"></div>
-	</div>
-    <nav class="navbar navbar-custom navbar-fixed-top top-nav-collapse" role="navigation">
-        <div class="container">
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand" href="index.html">
-                    <h1>#FOTS</h1>
-                </a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-			  <ul class="nav navbar-nav">
-				<li class="active">
-				<li>
-					<!-- Presents the current date and time in navbar -->
-					<a href = "#date">
-						<script type="text/javascript">
-							tday=new Array("Sun","Mon","Tue","Wed","Thu","Fri","Sat");
-							tmonth=new Array("Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec");
-
-							function GetClock(){
-							var d=new Date();
-							var nday=d.getDay(),nmonth=d.getMonth(),ndate=d.getDate(),nyear=d.getYear(),nhour=d.getHours(),nmin=d.getMinutes(),nsec=d.getSeconds(),ap;
-
-								 if(nhour==0){ap=" AM";nhour=12;}
-							else if(nhour<12){ap=" AM";}
-							else if(nhour==12){ap=" PM";}
-							else if(nhour>12){ap=" PM";nhour-=12;}
-
-							if(nyear<1000) nyear+=1900;
-							if(nmin<=9) nmin="0"+nmin;
-							if(nsec<=9) nsec="0"+nsec;
-
-							document.getElementById('clockbox').innerHTML=""+tday[nday]+", "+tmonth[nmonth]+" "+ndate+", "+nyear+" "+nhour+":"+nmin+":"+nsec+ap+"";
-							}
-
-							window.onload=function(){
-							GetClock();
-							setInterval(GetClock,1000);
-							}
-						</script>
-						<div id="clockbox"></div>
-					</a>
-					<!-- /.script -->
-				</li>
-			  </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
 
 	<!-- Section: about -->
     <section id="about" class="home-section text-center">
