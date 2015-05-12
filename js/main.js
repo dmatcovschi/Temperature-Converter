@@ -243,15 +243,34 @@ function Ctrl($scope)
     $scope.date = new Date();
 }
 
-var Note = function($scope){
-	$scope.items = [];
-	$scope.add = function () {
-          $scope.items.push({ 
-            inlineChecked: false,
-            question: "",
-            questionPlaceholder: "foo",
-            text: ""
-          });
-        };
-      }	
+function RoleListCtrl($scope)
+{
+    $('#myTab a[href="#role"]').tab('show');
+
+    $scope.newCompanyName ="";
+    $scope.newPosition="";
+
+
+    $scope.addRole = function()
+    {
+        var newRole = new function() {
+            this.companyName = $scope.newCompanyName;
+            this.position    = $scope.newPosition;
+            this.id          = '';
+        }
+
+        alert("test :"+newRole.companyName);
+
+        $scope.roleList = $scope.roleList.push(newRole);
+        // I have also tried this :   $scope.roleList = $scope.roleList.concat(newRole);
+    }
+
+    $scope.roleList = [
+        {"companyName": "Company 01", "id":"1", "position": "CEO"},
+        {"companyName": "Company 02", "id":"2", "position": "Board of Director"},
+        {"companyName": "Company 01", "id":"1", "position": "CEO"},
+        {"companyName": "Company 02", "id":"2", "position": "Board of Director"}
+
+    ];
+}
 
