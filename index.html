@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <head>
     <title> PHP Assignment 5 </title>
-    <script>
-    function validateForm() {
-        var x = document.getElementById('convert').value;
-        window.alert(x);
-        var valF = parseInt(x);
-        var valC = (5/9) * (valF - 32);
-        window.alert(ValF);
-        window.alert(ValC);
-        document.getElementById('first').value = "You entered the following temperature: " + valF + " farenheit";
-        document.getElementById('second').value = "The converted temperature is " + valC + " celcius.";
-    }
+    <script type = "text/javascript">
+        function validateForm() {
+            var x = document.getElementById('convert').value;
+            window.alert(x);
+            var valF = parseInt(x);
+            var valC = (5/9) * (valF - 32);
+            window.alert(ValF);
+            window.alert(ValC);
+            document.getElementById('first').value = "You entered the following temperature: " + valF + " farenheit";
+            document.getElementById('second').value = "The converted temperature is " + valC + " celcius.";
+        }
     </script>
 </head>
 <body>
