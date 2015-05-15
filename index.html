@@ -22,9 +22,12 @@
     <p id="t2"></p>
     <script>
     function myFunction() {
-        var x = document.getElementById("temp").value
+        var valF = document.getElementById("temp").value
         window.alert(x)
-        display()
+        var valC = (5/9) * (x - 32)
+        document.getElementById("t1").innerHTML = "You entered the following temperature: " + valF + " farenheit";
+        document.getElementById("t2").innerHTML = "The converted temperature is " + valC + " celcius.";
+        //display()
     }
     function display() {
         document.getElementById("t1").innerHTML = "Hello World";
