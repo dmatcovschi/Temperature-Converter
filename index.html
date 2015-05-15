@@ -4,8 +4,9 @@
     <script>
     function validateForm() {
         var x = document.forms["myForm"]["fname"].value;
-        var valF = parseInt(x);
-        var valC = (5/9) * (valF - 32);
+        //var valF = parseInt(x);
+        //var valC = (5/9) * (valF - 32);
+        window.location.href = 'http://dmatcovschi.github.io/form.html'
         document.writeln("You entered the following temperature: " + valF + " farenheit");
         document.writeln("The converted temperature is " + valC + " celcius.");
         //document.getElementById("myForm").submit();
