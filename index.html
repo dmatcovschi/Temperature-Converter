@@ -1,20 +1,18 @@
 <!DOCTYPE html>
 <head>
 <title> PHP Assignment 5 </title>
+<script>
+function validateForm() {
+    var x = document.forms["myForm"]["fname"].value;
+    window.alert(x);
+}
 </head>
 <body>
   Welcome to the temperature calculator!<br />
   <br />
-  <form method="post">
-    <table>
-      <tr>
-        <td>Please enter the temperature in Fahrenheit:</td>
-        <td><input type="text" name="fahrenheit" placeholder="0"/></td>
-      </tr>
-      <tr>
-        <td colspan="2"><input type="submit" name="submit" value="Submit" /></td>
-      </tr>
-    </table>
+  <form name="myForm" action="demo_form.asp" onsubmit="return validateForm()" method="post">
+  Please enter the temperature in Fahrenheit: <input type="text" name="fname" >
+    <input type="submit" value="Submit">
   </form>
 </body>
 </html>
