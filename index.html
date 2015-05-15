@@ -15,15 +15,20 @@
 </head>
 <body>
     Welcome to the temperature calculator!<br/>
-    Please enter the temperature in Fahrenheit:<input type=text id=temp>
+    Please enter the temperature in Fahrenheit:<input type="text" id="temp">
     <br><button id=ctof onclick="myFunction()">Click me</button>
     <output></output>
     <p id="t1"></p>
     <p id="t2"></p>
     <script>
     function myFunction() {
-    document.getElementById("t1").innerHTML = "Hello World";
-    document.getElementById("t2").innerHTML = "Hello Worldz";
+        var x = document.getElementById("temp").value
+        window.alert(x)
+        display()
+    }
+    function display() {
+        document.getElementById("t1").innerHTML = "Hello World";
+        document.getElementById("t2").innerHTML = "Hello Worldz";
     }
     </script>
 </body>
