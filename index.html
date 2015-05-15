@@ -6,8 +6,8 @@
         var x = document.forms["myForm"]["fname"].value;
         var valF = parseInt(x);
         var valC = (5/9) * (valF - 32);
-        document.writeln("You entered the following temperature: " + valF + " farenheit <br/>");
-        document.writeln("The converted temperature is " + valC + " celcius.");
+        document.getElementById('first').value = "You entered the following temperature: " + valF + " farenheit";
+        document.getElementById('second').value = "The converted temperature is " + valC + " celcius.";
     }
     </script>
 </head>
@@ -20,8 +20,8 @@
   </form>
   <table>
       <tr>
-          <td class = "first"><</td>
-          <td class = "second"></td>
+          <td id = "first"><</td>
+          <td id = "second"></td>
       </tr>
 </body>
 </html>
