@@ -1,27 +1,22 @@
 <!DOCTYPE html>
 <head>
     <title> PHP Assignment 5 </title>
-    <script type = "text/javascript">
-        function validateForm() {
-            var x = document.getElementById('convert').value;
-            window.alert(x);
-            var valF = parseInt(x);
-            var valC = (5/9) * (valF - 32);
-            window.alert(ValF);
-            window.alert(ValC);
-            document.getElementById('first').value = "You entered the following temperature: " + valF + " farenheit";
-            document.getElementById('second').value = "The converted temperature is " + valC + " celcius.";
-        }
+    <script>
+    function validateForm() {
+        var x = document.forms["myForm"]["fname"].value;
+        var valF = parseInt(x);
+        var valC = (5/9) * (valF - 32);
+        document.writeln("You entered the following temperature: " + valF + " farenheit <br/>");
+        document.writeln("The converted temperature is " + valC + " celcius.");
+    }
     </script>
 </head>
 <body>
   Welcome to the temperature calculator!<br />
   <br />
-  <form name="myForm" onsubmit="validateForm()" >
-  Please enter the temperature in Fahrenheit: <input type="text" name="fname" id="convert" placeholder="0">
+  <form name="myForm" onsubmit="return validateForm()" >
+  Please enter the temperature in Fahrenheit: <input type="text" name="fname" placeholder="0">
     <input type="submit" value="Submit">
   </form>
-  <p id="first"></p>
-  <p id="second"></p>
 </body>
 </html>
