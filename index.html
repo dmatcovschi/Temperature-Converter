@@ -4,21 +4,19 @@
     <script>
     function validateForm() {
         var x = document.forms["myForm"]["fname"].value;
-        //var valF = parseInt(x);
+        window.alert(x);
         //var valC = (5/9) * (valF - 32);
-        window.location.href = 'http://dmatcovschi.github.io/form.html'
-        document.writeln("You entered the following temperature: " + valF + " farenheit");
-        document.writeln("The converted temperature is " + valC + " celcius.");
+        //window.location.href = 'http://dmatcovschi.github.io/form.html'
+        //document.writeln("You entered the following temperature: " + valF + " farenheit");
+        //document.writeln("The converted temperature is " + valC + " celcius.");
         //document.getElementById("myForm").submit();
     }
     </script>
 </head>
 <body>
-  Welcome to the temperature calculator!<br />
-  <br />
-  <form name="myForm" onsubmit="validateForm()">
-  Please enter the temperature in Fahrenheit: <input type="text" name="fname" placeholder="0">
-    <input type="submit" value="Submit">
-  </form>
+    Welcome to the temperature calculator!<br/>
+    Please enter the temperature in Fahrenheit:<input type=text id=temp>
+    <br><input type="button" id=ctof value="to °F">
+    <output></output>
 </body>
 </html>
